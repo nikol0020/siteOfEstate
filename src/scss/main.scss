@@ -1,0 +1,11 @@
+.contacts-form {
+  display: block;
+  width: 500px;
+  border: 1px solid #000;
+  &__email, &__phone,
+  &__first-name, &__last-name {
+    width: 45%;
+    height: 20px;
+  }
+}
+
