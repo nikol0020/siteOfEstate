@@ -1,30 +1,39 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Estate</title>
-        <link rel="stylesheet" href="./src/build/css/style.css">
-    </head>
-    <body>
-
-    <h1>HELLO WORLD!</h1>
-
-        <form action="#" method="POST" class="contacts-form" >
-            <label for="formEmail" class="contacts-form__label"></label>
-            <input type="text" class="contacts-form__email" name="form_email" id="formEmail">
-            <label for="formPhone" class="contacts-form__label"></label>
-            <input type="text" class="contacts-form__phone" name="form_phone" id="formPhone">
-            <label for="formFirstName" class="contacts-form__label"></label>
-            <input type="text" class="contacts-form__first-name" name="form_first_name" id="formFirstName">
-            <label for="formLastName" class="contacts-form__label"></label>
-            <input type="text" class="contacts-form__last-name" name="form_last_name" id="formLastName">
-            <label for="msg" class="contacts-form__label"></label>
-            <textarea class="massange" name="message" id="msg"></textarea>
-            <input type="checkbox" class="contacts-form__checkbox">
-            <button type="submit" class="contacts-form__button"></button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estate</title>
+    <link rel="stylesheet" href="../build/css/main.css">
+</head>
+<body>
+    <main class="content">
+        <form action="#" method="POST" class="contacts-form">
+            <h1 class="contacts-form__title">GET IN TOUCH</h1>
+            <div class="contacts-form__persons-data">
+                <label for="formEmail" class="contacts-form__label">* EMAIL ADDRESS:</label>
+                <input type="text" class="contacts-form__email" name="form_email" id="formEmail">
+                <label for="formPhone" class="contacts-form__label">* PHOINE NUMBER:</label>
+                <input type="text" class="contacts-form__phone" name="form_phone" id="formPhone">
+                <label for="formFirstName" class="contacts-form__label">* FIRST NAME:</label>
+                <input type="text" class="contacts-form__first-name" name="form_first_name" id="formFirstName">
+                <label for="formLastName" class="contacts-form__label">* LAST NAME:</label>
+                <input type="text" class="contacts-form__last-name" name="form_last_name" id="formLastName">
+            </div>
+            <div class="contacts-form__persons-message">
+                <label for="formMessage" class="contacts-form__label"> MESSAGE FOR US:
+                    <textarea class="contacts-form__message" name="message" id="formMessage"
+                              placeholder="write your message" row="10" cols="50"></textarea></label>
+            </div>
+            <p class="contacts-form__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ad amet cumque doloremque est et eveniet molestiae non nostrum obcaecati pariatur quia quidem quo,
+                ratione, ullam veniam vitae voluptatem! Amet, voluptatibus!</p>
+            <input type="checkbox" class="contacts-form__checkbox" id="checkboxAgree">
+            <label for="checkboxAgree" class="contacts-form__label--checkbox">I agree</label>
+            <button type="submit" class="contacts-form__button">SEND</button>
         </form>
-    </body>
+    </main>
+</body>
 </html>
