@@ -1,0 +1,38 @@
+.header {
+  display: block;
+  width: 100%;
+  height: 160px;
+  border: 1px solid #000000;
+
+  &__menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 100px;
+    right: 250px;
+
+    &-link {
+      margin: 10px 0;
+    }
+  }
+
+  &__logo {
+    position: absolute;
+    left: 275px;
+    top: 10px;
+    width: 260px;
+    height: 135px;
+    border: 1px solid #000;
+  }
+
+  &__search {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    right: 215px;
+  }
+}
+
