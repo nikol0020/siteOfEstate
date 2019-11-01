@@ -9,31 +9,104 @@
     <link rel="stylesheet" href="../build/css/main.css">
 </head>
 <body>
-    <main class="content">
-        <form action="#" method="POST" class="contacts-form">
-            <h1 class="contacts-form__title">GET IN TOUCH</h1>
-            <div class="contacts-form__persons-data">
-                <label for="formEmail" class="contacts-form__label">* EMAIL ADDRESS:</label>
-                <input type="text" class="contacts-form__email" name="form_email" id="formEmail">
-                <label for="formPhone" class="contacts-form__label">* PHOINE NUMBER:</label>
-                <input type="text" class="contacts-form__phone" name="form_phone" id="formPhone">
-                <label for="formFirstName" class="contacts-form__label">* FIRST NAME:</label>
-                <input type="text" class="contacts-form__first-name" name="form_first_name" id="formFirstName">
-                <label for="formLastName" class="contacts-form__label">* LAST NAME:</label>
-                <input type="text" class="contacts-form__last-name" name="form_last_name" id="formLastName">
+<header class="header">
+    <div class="container">
+        <div class="header__logo">
+            <img src="" alt="logo"/>
+        </div>
+        <input type="search" class="header__search"/>
+        <div class="header__menu">
+            <a href="index.html" class="header__menu-link">HOME</a>
+            <a href="#" class="header__menu-link">CATALOG</a>
+            <a href="#" class="header__menu-link">ABOUT US</a>
+            <a href="pages/page-contacts.html" class="header__menu-link">CONTACTS</a>
+        </div>
+    </div>
+</header>
+<main class="home container">
+    <section class="home__slider">
+        <div class="home__slider-item">
+            <img src="#" alt="swimming pool" class="home__slider-img"/>
+        </div>
+        <img src="#" alt="studio apartments" class="home__slider-img"/>
+        <img src="#" alt="luxury houses" class="home__slider-img"/>
+    </section>
+    <section class="home__category">
+        <div class="home__category-choose">
+            <h3 class="home__title">swimming pool</h3>
+            <a href="#" class="home__category-button">choose SP</a>
+        </div>
+        <div class="home__category-choose">
+            <h3 class="home__title">studio apartments</h3>
+                <a href="#" class="home__category-button">choose SA</a>
+        </div>
+        <div class="home__category-choose">
+            <h3 class="home__title">luxury houses</h3>
+                <a href="#" class="home__category-button">choose LH</a>
+        </div>
+    </section>
+    <h2 class="home__title"></h2>
+    <section class="home__offer">
+        <div class="home__offer-item">
+            <div class="home__offer-img">
+                <img src="#" alt="" class="home__offer-image">
             </div>
-            <div class="contacts-form__persons-message">
-                <label for="formMessage" class="contacts-form__label"> MESSAGE FOR US:
-                    <textarea class="contacts-form__message" name="message" id="formMessage"
-                              placeholder="write your message" row="10" cols="50"></textarea></label>
+            <h3 class="home__title">choose SP</h3>
+            <div class="home__offer-description">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Atque, cupiditate dicta eaque
+                est maiores mollitia quaerat quo rerum vel voluptas.
+                Ab fuga quasi quos veniam. Culpa cum et natus temporibus?
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Atque, cupiditate dicta eaque
+                est maiores mollitia quaerat quo rerum vel voluptas.
+                Ab fuga quasi quos veniam. Culpa cum et natus temporibus?
             </div>
-            <p class="contacts-form__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Ad amet cumque doloremque est et eveniet molestiae non nostrum obcaecati pariatur quia quidem quo,
-                ratione, ullam veniam vitae voluptatem! Amet, voluptatibus!</p>
-            <input type="checkbox" class="contacts-form__checkbox" id="checkboxAgree">
-            <label for="checkboxAgree" class="contacts-form__label--checkbox">I agree</label>
-            <button type="submit" class="contacts-form__button">SEND</button>
-        </form>
-    </main>
+        </div>
+        <div class="home__offer-item">
+            <div class="home__offer-img">
+                <img src="#" alt="" class="home__offer-image">
+            </div>
+            <h3 class="home__title">choose SA</h3>
+            <div class="home__offer-description">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Atque, cupiditate dicta eaque
+                est maiores mollitia quaerat quo rerum vel voluptas.
+                Ab fuga quasi quos veniam. Culpa cum et natus temporibus?
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Atque, cupiditate dicta eaque
+                est maiores mollitia quaerat quo rerum vel voluptas.
+                Ab fuga quasi quos veniam. Culpa cum et natus temporibus?
+            </div>
+        </div>
+        <div class="home__offer-item">
+            <div class="home__offer-img">
+                <img src="#" alt="" class="home__offer-image">
+            </div>
+            <h3 class="home__title">choose LH</h3>
+            <div class="home__offer-description">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Atque, cupiditate dicta eaque
+                est maiores mollitia quaerat quo rerum vel voluptas.
+                Ab fuga quasi quos veniam. Culpa cum et natus temporibus?
+                Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Atque, cupiditate dicta eaque
+                est maiores mollitia quaerat quo rerum vel voluptas.
+                Ab fuga quasi quos veniam. Culpa cum et natus temporibus?
+            </div>
+        </div>
+    </section>
+    <button class="home__button--all">view all properties</button>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__menu">
+            <a href="index.html" class="footer__menu-link">HOME</a>
+            <a href="#" class="footer__menu-link">CATALOG</a>
+            <a href="#" class="footer__menu-link">ABOUT US</a>
+            <a href="pages/page-contacts.html" class="footer__menu-link">CONTACTS</a>
+        </div>
+        <div class="footer__address"></div>
+        <div class="footer__map"></div>
+        <div class="footer__copyright">copyright@copyright 2019</div>
+    </div>
+</footer>
 </body>
 </html>

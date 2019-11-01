@@ -1,0 +1,125 @@
+@import"header";
+@import"footer";
+
+.home {
+  
+  &__title {
+    text-align: center;
+    color: #0088ff;
+    text-transform: uppercase;
+  }
+
+  &__search {
+    outline: 0;
+  }
+
+  &__slider {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #000000;
+    margin: 30px 0;
+
+    &-item {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #0f0;
+    }
+
+    &-img {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #0088ff;
+    }
+  }
+
+  &__category {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &-choose {
+      width: 30%;
+      height: 150px;
+      //background: url("#") no-repeat;
+      background-size: cover;
+      border: 1px solid #000;
+      margin: 30px 0;
+    }
+
+    &-button {
+      padding: 5px 40px;
+      color: #fff;
+      background-color: #00f;
+      border: 1px solid #00f;
+      border-radius: 5px;
+      position: relative;
+      bottom: -45px;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #f46;
+        cursor: pointer;
+        border: 1px solid #f46;
+      }
+    }
+
+    //&-link {
+    //  padding: 10px 40px;
+    //  color: #fff;
+    //  background-color: #00f;
+    //  border: 1px solid #00f;
+    //  border-radius: 5px;
+    //
+    //  &:hover {
+    //    background-color: #f46;
+    //    cursor: pointer;
+    //  }
+    //}
+  }
+
+  &__offer {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+
+    &-item {
+      /*display: flex;
+      flex-direction: column;*/
+      width: 25%;
+    }
+
+    &-img {
+      width: 100%;
+      height: 100px;
+      border: 1px solid #000000;
+    }
+
+    &-image {
+      width: 100%;
+    }
+
+    &-description {
+      width: 100%;
+      padding: 5px;
+    }
+  }
+
+  &__button--all {
+    width: 40%;
+    height: 80px;
+    text-align: center;
+    border: 1px solid #0000ff;
+    color: #ffffff;
+    background-color: #0000ff;
+    margin: 5%;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #ff4466;
+      border-color: #ff4466;
+      cursor: pointer;
+    }
+  }
+
+}
