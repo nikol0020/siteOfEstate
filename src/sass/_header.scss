@@ -10,7 +10,7 @@
     justify-content: space-between;
     position: absolute;
     top: 100px;
-    right: 250px;
+    right: 120px;
 
     &-link {
       margin: 10px 0;
@@ -19,20 +19,20 @@
 
   &__logo {
     position: absolute;
-    left: 275px;
+    left: 90px;
     top: 10px;
-    width: 260px;
+    width: 240px;
     height: 135px;
     border: 1px solid #000;
   }
 
   &__search {
-    width: 50%;
+    width: 55%;
     height: 30px;
     border-radius: 10px;
     position: absolute;
     top: 40px;
-    right: 215px;
+    right: 110px;
   }
 }
 

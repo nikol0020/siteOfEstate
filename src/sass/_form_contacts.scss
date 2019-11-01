@@ -22,7 +22,7 @@
     margin-left: 10px;
     &--checkbox {
       position: relative;
-      top: -6.5px;
+      top: -30px;
     }
   }
   &__persons-data,
@@ -48,13 +48,13 @@
     width: 60%;
     margin-left: 20px;
     position: relative;
-    top: -5%;
+    top: -25px;
   }
 
   &__checkbox {
     margin: 10px 0 0 20px;
     position: relative;
-    top: -5px;
+    top: -28px;
   }
 
   &__button {
@@ -63,7 +63,7 @@
     border-radius: 5px;
     margin: 0 30px;
     position: relative;
-    bottom: 15px;
+    bottom: 35px;
     float: right;
   }
 }
