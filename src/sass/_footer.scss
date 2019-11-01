@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 150px;
+    left: 120px;
     top: 70px;
     width: 10%;
     text-align: left;
@@ -16,6 +16,9 @@
     &-link {
       margin: 10px 0;
       text-decoration: none;
+      color: blue;
+      font-weight: bolder;
+
       &:hover {
         color: #ff4466;
       }

@@ -62,29 +62,13 @@
         border: 1px solid #f46;
       }
     }
-
-    //&-link {
-    //  padding: 10px 40px;
-    //  color: #fff;
-    //  background-color: #00f;
-    //  border: 1px solid #00f;
-    //  border-radius: 5px;
-    //
-    //  &:hover {
-    //    background-color: #f46;
-    //    cursor: pointer;
-    //  }
-    //}
   }
 
   &__offer {
     display: flex;
-    /*flex-wrap: wrap;*/
     justify-content: space-between;
 
     &-item {
-      /*display: flex;
-      flex-direction: column;*/
       width: 25%;
     }
 
