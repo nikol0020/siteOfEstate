@@ -35,11 +35,14 @@
 
   &__search {
     width: 55%;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
+    outline: 0;
     position: absolute;
     top: 40px;
     right: 110px;
+    font-size: 18px;
+    text-transform: uppercase;
   }
 }
 

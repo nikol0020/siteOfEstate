@@ -18,7 +18,7 @@
         <div class="header__menu">
             <a href="../index.html" class="header__menu-link">HOME</a>
             <a href="./page-catalog.html" class="header__menu-link">CATALOG</a>
-            <a href="#" class="header__menu-link">ABOUT US</a>
+            <a href="./page-about_us.html" class="header__menu-link">ABOUT US</a>
             <a href="./page-contacts.html" class="header__menu-link">CONTACTS</a>
         </div>
     </div>
@@ -28,23 +28,24 @@
         <h1 class="contacts-form__title">GET IN TOUCH</h1>
         <div class="contacts-form__persons-data">
             <label for="formEmail" class="contacts-form__label">* EMAIL ADDRESS:</label>
-            <input type="text" class="contacts-form__email" name="form_email" id="formEmail">
-            <label for="formPhone" class="contacts-form__label">* PHOINE NUMBER:</label>
-            <input type="text" class="contacts-form__phone" name="form_phone" id="formPhone">
+            <input type="email" class="contacts-form__email" name="form_email" id="formEmail" required>
+            <label for="formPhone" class="contacts-form__label">* PHONE NUMBER:</label>
+            <input type="tel" class="contacts-form__phone" name="form_phone" id="formPhone"
+                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder=" Phone number should be in format: 123-456-7890" required>
             <label for="formFirstName" class="contacts-form__label">* FIRST NAME:</label>
-            <input type="text" class="contacts-form__first-name" name="form_first_name" id="formFirstName">
+            <input type="text" class="contacts-form__first-name" name="form_first_name" id="formFirstName" required>
             <label for="formLastName" class="contacts-form__label">* LAST NAME:</label>
-            <input type="text" class="contacts-form__last-name" name="form_last_name" id="formLastName">
+            <input type="text" class="contacts-form__last-name" name="form_last_name" id="formLastName" required>
         </div>
         <div class="contacts-form__persons-message">
             <label for="formMessage" class="contacts-form__label"> MESSAGE FOR US:
                 <textarea class="contacts-form__message" name="message" id="formMessage"
-                          placeholder="write your message" row="10" cols="50"></textarea></label>
+                          placeholder=" Write your message" row="10" cols="50"></textarea></label>
         </div>
         <p class="contacts-form__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Ad amet cumque doloremque est et eveniet molestiae non nostrum obcaecati pariatur quia quidem quo,
             ratione, ullam veniam vitae voluptatem! Amet, voluptatibus!</p>
-        <input type="checkbox" class="contacts-form__checkbox" id="checkboxAgree">
+        <input type="checkbox" class="contacts-form__checkbox" id="checkboxAgree" required>
         <label for="checkboxAgree" class="contacts-form__label--checkbox">I agree</label>
         <button type="submit" class="contacts-form__button">SEND</button>
     </form>
@@ -68,7 +69,7 @@
         <div class="footer__menu">
             <a href="../index.html" class="footer__menu-link">HOME</a>
             <a href="./page-catalog.html" class="footer__menu-link">CATALOG</a>
-            <a href="#" class="footer__menu-link">ABOUT US</a>
+            <a href="./page-about_us.html" class="footer__menu-link">ABOUT US</a>
             <a href="./page-contacts.html" class="footer__menu-link">CONTACTS</a>
         </div>
         <div class="footer__address"></div>

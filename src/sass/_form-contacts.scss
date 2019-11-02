@@ -10,8 +10,9 @@
   &__first-name, &__last-name, &__message {
     display: block;
     width: 100%;
-    height: 20px;
+    height: 25px;
     margin: 10px;
+    font-size: 16px;
   }
 
   &__title {
@@ -42,14 +43,14 @@
 
   &__message {
     display: block;
-    height: 73.5%;
+    height: 82.5%;
   }
 
   &__text {
     width: 60%;
     margin-left: 20px;
     position: relative;
-    top: -25px;
+    top: -20px;
   }
 
   &__checkbox {
