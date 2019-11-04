@@ -3,34 +3,44 @@
   width: 100%;
   height: 160px;
   border: 1px solid #000000;
+  background-color: #A7D2BE;
+ // background-color: #aaf;
 
   &__menu {
-    width: 40%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     position: absolute;
     top: 100px;
-    right: 120px;
+    right: 110px;
 
     &-link {
       margin: 10px 0;
       text-decoration: none;
-      color: blue;
+      color: #0056FF;
       font-weight: bolder;
+      background: #fff;
+      padding: 2px 12px;
+      border-radius: 8px;
 
       &:hover {
-        color: #ff4466;
+        color: #a242af;
        }
     }
   }
 
   &__logo {
     position: absolute;
-    left: 90px;
+    left: 70px;
     top: 10px;
     width: 240px;
-    height: 135px;
-    border: 1px solid #000;
+    overflow: hidden;
+  //  background-image: url("../../src/images/logo.jpg");
+  }
+
+  &__logo-image {
+    width: 55%;
+    border-radius: 12px;
   }
 
   &__search {
