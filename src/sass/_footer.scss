@@ -4,6 +4,7 @@
   height: 25vw;
   border: 1px solid #000000;
   background-color: #02424a;
+  border-radius: 0;
 
   &__menu {
     display: flex;
@@ -25,7 +26,8 @@
       background: #fff;
 
       &:hover {
-        color: #88aa88;
+        color: #ffffff;
+        background: #90bfb8;
       }
     }
   }
@@ -37,6 +39,7 @@
     position: absolute;
     top: 2.5vw;
     left: 18vw;
+    background-color: #ffffff;
   }
 
   &__map {
@@ -46,12 +49,14 @@
     right: 0;
     top: 2.5vw;
     border: 1px solid #000;
+    background-color: #ffffff;
   }
 
   &__copyright {
     width: 85vw;
     position: absolute;
     bottom: 10px;
-    font-size: 1.5vw;
+    font-size: 1vw;
+    color: #ffffff;
   }
 }
