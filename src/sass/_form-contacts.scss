@@ -1,6 +1,6 @@
 .contacts-form {
   display: block;
-  width: 70%;
+  width: 85%;
   position: relative;
   border: 1px solid #000;
   margin: 30px auto;
@@ -17,11 +17,15 @@
 
   &__title {
     text-align: center;
-    margin-bottom: 50px;
+    //margin-bottom: 50px;
+    color: #02424a;
+    text-transform: uppercase;
+    margin: 1.5em 0;
   }
 
   &__label {
     margin-left: 10px;
+
     &--checkbox {
       position: relative;
       top: -30px;
@@ -29,21 +33,20 @@
   }
   &__persons-data,
   &__persons-message {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 45%;
     margin: 10px;
     height: 18.05em;
   }
   &__persons-message {
     position: absolute;
-    top: 18.8%;
-    left: 55%;
-    width: 40%;
+    top: 120px;
+    left: 50%;
   }
 
   &__message {
-    display: block;
-    height: 82.5%;
+    height: 27.5vh;
   }
 
   &__text {
@@ -54,7 +57,7 @@
   }
 
   &__checkbox {
-    margin: 10px 0 0 20px;
+    margin: 20px 0 0 20px;
     position: relative;
     top: -28px;
   }
@@ -65,7 +68,7 @@
     border-radius: 5px;
     margin: 0 30px;
     position: relative;
-    bottom: 35px;
+    bottom: 30px;
     float: right;
   }
 }

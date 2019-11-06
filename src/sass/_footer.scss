@@ -1,54 +1,57 @@
 .footer {
   display: block;
   width: 100%;
-  height: 300px;
+  height: 25vw;
   border: 1px solid #000000;
-  background-color: #A7D2BE;
+  background-color: #02424a;
 
   &__menu {
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 120px;
-    top: 60px;
-    width: 10%;
+    left: 5vw;
+    top: 3.5vw;
     text-align: left;
+    width: 8vw;
+    font-size: 1vw;
 
     &-link {
-      margin: 10px 0;
+      margin: 1vw 0;
       text-decoration: none;
-      color: #0056ff;
+      color: #02424a;
       font-weight: bolder;
-      padding: 2px 20px;
-      border-radius: 8px;
+      padding: 0.2vw 1vw;
+      border-radius: 0.6vw;
       background: #fff;
 
       &:hover {
-        color: #a242af;
+        color: #88aa88;
       }
     }
   }
 
   &__address {
-    width: 20%;
-    height: 200px;
+    width: 17vw;
+    height: 18vw;
     border: 1px solid #000;
     position: absolute;
-    top: 45px;
-    left: 23%;
+    top: 2.5vw;
+    left: 18vw;
   }
 
   &__map {
-    width: 35%;
-    height: 200px;
+    width: 40vw;
+    height: 18vw;
     position: absolute;
-    right: 250px;
-    top: 45px;
+    right: 0;
+    top: 2.5vw;
     border: 1px solid #000;
   }
 
   &__copyright {
-    width: 95%;
-    margin: 100px 0 auto;
+    width: 85vw;
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.5vw;
   }
 }

@@ -5,15 +5,16 @@
   
   &__title {
     text-align: center;
-    color: #0056ff;
+    color: #02424a;
     text-transform: uppercase;
+    margin: 1.5em 0;
   }
 
   &__slider {
     width: 100%;
-    height: 450px;
+ //   height: 75vw;
     border: 1px solid #000000;
-    margin: 30px 0;
+    margin: 5vw 0;
     overflow: hidden;
 
     &-item {
@@ -25,9 +26,9 @@
     }
 
     &-img {
-   //   width: 100%;
-      height: 65vh;
-      border: 1px solid #0056ff;
+      width: 100%;
+   //   height: 65vh;
+      border: 1px solid #02424a;
     }
   }
 
@@ -38,38 +39,39 @@
 
     &-choose {
       width: 30%;
-      height: 200px;
-      background-size: cover;
+      height: 20vw;
       border: 1px solid #000;
       margin: 30px 0;
 
       &--swimming-pool {
         background: url("../../src/images/swimming_pool.jpg") no-repeat;
+        background-size: cover;
       }
       &--studio-apartment {
         background: url("../../src/images/studio_apartments.jpg") no-repeat;
+        background-size: cover;
       }
       &--luxury-houses {
         background: url("../../src/images/luxury_houses.jpg") no-repeat;
+        background-size: cover;
       }
     }
 
     &-button {
-      padding: 8px 30px;
+      padding: 0.8vw 0.8vw;
       color: #fff;
-      background-color: #0056ff;
-      //border: 1px solid #0056ff;
-      border-radius: 5px;
+      background-color: #02424a;
+      border-radius: 1vw;
       position: relative;
-      bottom: -100px;
+      bottom: -50%;
       text-decoration: none;
       text-transform: uppercase;
-      border: 1px solid #fff;
+      font-size: 1vw;
 
       &:hover {
-        background-color: #a242af;
+        background-color: #88aa88;
         cursor: pointer;
-        border: 1px solid #a242af;
+        border: 1px solid #88aa88;
       }
     }
   }
@@ -84,7 +86,7 @@
 
     &-img {
       width: 100%;
-      height: 35vh;
+      height: 15vw;
       overflow: hidden;
       border: 1px solid #000000;
     }
@@ -96,6 +98,7 @@
     &-description {
       width: 100%;
       padding: 5px;
+      text-align: left;
     }
   }
 
@@ -103,9 +106,9 @@
     width: 30%;
     height: 65px;
     text-align: center;
-    border: 1px solid #0056ff;
+    border: 1px solid #02424a;
     color: #ffffff;
-    background-color: #0056ff;
+    background-color: #02424a;
     margin: 5%;
     text-transform: uppercase;
     border-radius: 10px;
@@ -116,8 +119,8 @@
     }
 
     &:hover {
-      background-color: #a242af;
-      border-color: #a242af;
+      background-color: #88aa88;
+      border-color: #88aa88;
       cursor: pointer;
 
       &>a {

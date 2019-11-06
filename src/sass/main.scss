@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lato|Lobster|Muli&display=swap');
 @import"page-contacts";
 @import "page-home";
 @import "page-catalog";
 @import "about-us";
 
+/*font-family: 'Lobster', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Arimo', sans-serif;*/
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  border-radius: 10px;
+}
+
+
 .container {
-  width: 1240px;
+  width: 80%;
   margin: auto;
   position: relative;
   height: inherit;
