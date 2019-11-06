@@ -4,6 +4,7 @@
   height: 11vw;
   border: 1px solid #000000;
   background-color: #02424a;
+  border-radius: 0;
 
   &__menu {
     width: 45vw;
@@ -26,7 +27,7 @@
 
       &:hover {
         color: #ffffff;
-        background: #88aa88;
+        background: #90bfb8;
        }
     }
   }
