@@ -2,18 +2,26 @@
 @import "footer";
 
 .about-us {
+  color: #02424a;
+
+  &__title {
+    text-align: center;
+    //margin-bottom: 50px;
+    color: #02424a;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+  }
 
   &__article {
     display: flex;
     flex-direction: column;
-    border: 1px solid #000;
     margin: 30px 0;
   }
 
   &__section {
     display: flex;
     flex-direction: row;
-    margin: 30px 0;
+    margin: 30px 10px;
     justify-content: space-evenly;
   }
 
@@ -21,15 +29,48 @@
     width: 300px;
     height: 300px;
     border: 1px solid #000;
+    display: flex;
+    flex: 1 0 auto;
+    overflow: hidden;
+    margin-right: 20px;
+  }
 
-    &__image {
-      width: 100%;
-    }
+  &__image {
+    width: 100%;
   }
 
   &__description {
     width: 60%;
     height: 300px;
     border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+    overflow: auto;
+
+    &--testimonials {
+      width: 100%;
+      display: flex;
+      margin: 1em 0;
+    }
+  }
+
+  &__feedback {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex: 1 0 auto;
+    margin: 0 10px;
+    justify-content: space-between;
+
+    &-image {
+      border-radius: 50%;
+      height: fit-content;
+    }
+
+    &-description {
+      margin-left: 10px;
+      text-align: left;
+      font-family: 'Dancing Script', cursive;
+    }
   }
 }

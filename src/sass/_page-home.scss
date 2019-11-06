@@ -5,26 +5,30 @@
   
   &__title {
     text-align: center;
-    color: #0088ff;
+    color: #02424a;
     text-transform: uppercase;
+    margin: 1.5em 0;
   }
 
   &__slider {
     width: 100%;
-    height: 300px;
+ //   height: 75vw;
     border: 1px solid #000000;
-    margin: 30px 0;
+    margin: 5vw 0;
+    overflow: hidden;
 
     &-item {
       width: 100%;
-      height: 100%;
-      border: 1px solid #0f0;
+   //   height: 100%;
+      border: 1px solid #000;
+      background-image: url("../../src/images/bg_1.jpg");
+      background-size: cover;
     }
 
     &-img {
       width: 100%;
-      padding: 5px;
-      border: 1px solid #0088ff;
+   //   height: 65vh;
+      border: 1px solid #02424a;
     }
   }
 
@@ -35,27 +39,39 @@
 
     &-choose {
       width: 30%;
-      height: 150px;
-      //background: url("#") no-repeat;
-      background-size: cover;
+      height: 20vw;
       border: 1px solid #000;
       margin: 30px 0;
+
+      &--swimming-pool {
+        background: url("../../src/images/swimming_pool.jpg") no-repeat;
+        background-size: cover;
+      }
+      &--studio-apartment {
+        background: url("../../src/images/studio_apartments.jpg") no-repeat;
+        background-size: cover;
+      }
+      &--luxury-houses {
+        background: url("../../src/images/luxury_houses.jpg") no-repeat;
+        background-size: cover;
+      }
     }
 
     &-button {
-      padding: 5px 40px;
+      padding: 0.8vw 0.8vw;
       color: #fff;
-      background-color: #00f;
-      border: 1px solid #00f;
-      border-radius: 5px;
+      background-color: #02424a;
+      border-radius: 1vw;
       position: relative;
-      bottom: -45px;
+      bottom: -50%;
       text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1vw;
 
       &:hover {
-        background-color: #f46;
+        background-color: #88aa88;
         cursor: pointer;
-        border: 1px solid #f46;
+        border: 1px solid #88aa88;
       }
     }
   }
@@ -70,7 +86,8 @@
 
     &-img {
       width: 100%;
-      height: 100px;
+      height: 15vw;
+      overflow: hidden;
       border: 1px solid #000000;
     }
 
@@ -81,19 +98,20 @@
     &-description {
       width: 100%;
       padding: 5px;
+      text-align: left;
     }
   }
 
   &__button--all {
-    width: 40%;
-    height: 80px;
+    width: 30%;
+    height: 65px;
     text-align: center;
-    border: 1px solid #0000ff;
+    border: 1px solid #02424a;
     color: #ffffff;
-    background-color: #0000ff;
+    background-color: #02424a;
     margin: 5%;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 10px;
 
     &>a {
       color: #ffffff;
@@ -101,8 +119,8 @@
     }
 
     &:hover {
-      background-color: #ff4466;
-      border-color: #ff4466;
+      background-color: #88aa88;
+      border-color: #88aa88;
       cursor: pointer;
 
       &>a {

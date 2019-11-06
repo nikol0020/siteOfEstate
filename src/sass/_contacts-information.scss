@@ -1,6 +1,7 @@
 .contacts__information {
   display: flex;
   justify-content: center;
+
   &--phones, &--emails,
   &--address, &--open-hours {
     display: block;
@@ -8,10 +9,12 @@
     height: 200px;
     margin: 2%;
     border: 1px solid #000000;
+    text-align: left;
+    padding: 0 10px;
   }
   &-title {
     text-align: center;
-    margin-top: -40px;
+    margin: -35px 0 25px;
   }
 
 }
