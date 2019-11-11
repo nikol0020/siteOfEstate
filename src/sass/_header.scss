@@ -4,7 +4,6 @@
   height: 11vw;
   border: 1px solid #000000;
   background-color: #02424a;
-  border-radius: 0;
 
   &__menu {
     width: 45vw;
@@ -28,6 +27,8 @@
       &:hover {
         color: #ffffff;
         background: #90bfb8;
+        border-radius: 0;
+        outline-style: double;
        }
     }
   }
@@ -58,4 +59,3 @@
     text-transform: uppercase;
   }
 }
-
