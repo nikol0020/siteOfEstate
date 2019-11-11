@@ -6,9 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Estate</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAACHCJdlgAEGcD_flKUFEmVhT2yXp_ZAY8_ufC3CFXhHIE1NvwkxTeukKcKHF3ezmjTB0q6gzSBmoIUQ&sensor=true_or_false"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        function initialize() {
+            if (GBrowserIsCompatible()) {
+                var map = new GMap2(document.getElementById("map_canvas"));
+                map.setCenter(new GLatLng(56.32811,44.0), 10);
+            }
+        }
+
+    </script>
     <link rel="stylesheet" href="../build/css/main.css">
 </head>
-<body>
+<body onload="initialize()" onunload="GUnload()">
 <header class="header">
     <div class="container">
         <div class="header__logo">
@@ -106,7 +117,7 @@
             <a href="pages/page-contacts.html" class="footer__menu-link">CONTACTS</a>
         </div>
         <div class="footer__address"></div>
-        <div class="footer__map"></div>
+        <div id="map_canvas" class="footer__map" style="width: 500px; height: 300px"></div>
         <div class="footer__copyright">copyright@copyright 2019</div>
     </div>
 </footer>
