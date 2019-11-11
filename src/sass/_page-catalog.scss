@@ -23,7 +23,10 @@
     &--weather {
       border: 1px solid #000000;
       margin: 10px 0;
-      height: 20%;
+      overflow: hidden;
+      &>div {
+
+      }
     }
 
     &--news {
